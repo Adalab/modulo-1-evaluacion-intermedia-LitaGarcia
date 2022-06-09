@@ -1,0 +1,53 @@
+:root {
+  --main-font: "Rubik", sans-serif;
+}
+
+.header {
+  width: 100%;
+  padding: 10px 0 13px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo-container {
+  width: 155px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.menu-header li {
+  color: #4a4a4a;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+}
+
+.main {
+  background-color: #3cdbc0;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--main-font);
+  font-size: 30px;
+  color: #ffffff;
+}
